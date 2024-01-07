@@ -57,8 +57,8 @@ h2 {
 
 .project-tile {
     position: relative;
-    width: 200px;
-    height: 250px; /* Adjust as needed */
+    width: 230px;
+    height: 300px; /* Adjust as needed */
     background-color: #262626;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transition: transform 0.5s;
@@ -105,34 +105,39 @@ h2 {
     transform: rotateY(180deg);
 }
 
-.experience-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 1em;
-}
+.experience-section {
+    margin: 20px;
+  }
 
-.experience-entry {
-    background-color: #333;
-    color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    padding: 15px;
+.experience-item {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
+  }
+
+.company-logo {
+    width: 50px; /* Adjust as necessary */
+    height: 50px; /* Adjust as necessary */
+    margin-right: 20px;
+    border-radius: 50%; /* Makes the image round */
 }
 
-.experience-photo {
-    width: 100%;
-    height: 200px; /* Adjust as needed */
-    object-fit: cover;
-    border-radius: 10px; /* Optional for rounded corners */
-}
+.experience-details {
+    flex-grow: 1;
+  }
 
-.experience-info {
-    text-align: center;
-    margin-top: 15px;
-}
+.company-name {
+    font-weight: bold;
+  }
+
+.experience-dates {
+    font-style: italic;
+    color: #666;
+  }
+
+.experience-description {
+    margin-top: 5px;
+  }
 
 
 
