@@ -37,7 +37,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #f0efea; /* Light green for hover effect */
+    color: #f0efea;
+    /* Light green for hover effect */
 }
 
 section {
@@ -58,7 +59,8 @@ h2 {
 .project-tile {
     position: relative;
     width: 230px;
-    height: 300px; /* Adjust as needed */
+    height: 300px;
+    /* Adjust as needed */
     background-color: #262626;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transition: transform 0.5s;
@@ -66,7 +68,8 @@ h2 {
     perspective: 1000px;
 }
 
-.tile-front, .tile-back {
+.tile-front,
+.tile-back {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -89,8 +92,10 @@ h2 {
     text-align: center;
     color: white;
     font-size: 1.2em;
-    background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent background */
-    padding: 5px 0; /* Adjust as needed */
+    background-color: rgba(0, 0, 0, 0.75);
+    /* Semi-transparent background */
+    padding: 5px 0;
+    /* Adjust as needed */
 }
 
 .tile-back {
@@ -107,45 +112,56 @@ h2 {
 
 .experience-section {
     margin: 20px;
-  }
+}
 
 .experience-item {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-  }
+}
 
 .company-logo {
-    width: 50px; /* Adjust as necessary */
-    height: 50px; /* Adjust as necessary */
+    width: 50px;
+    /* Adjust as necessary */
+    height: 50px;
+    /* Adjust as necessary */
     margin-right: 20px;
-    border-radius: 50%; /* Makes the image round */
+    border-radius: 50%;
+    /* Makes the image round */
+    align-self: flex-start;
 }
 
 .experience-details {
     flex-grow: 1;
-  }
+    font-weight: bold;
+}
 
 .company-name {
     font-weight: bold;
-  }
+}
 
 .experience-dates {
+    margin-left: 25px;
     font-style: italic;
     color: #666;
-  }
+}
 
 .experience-description {
     margin-top: 5px;
-  }
+    margin-left: 25px;
+    font-style: italic;
+    color: #666;
+}
 
 
 
 /* TIMELINE */
 .timeline {
     position: relative;
-    padding-left: 20px; /* Adjust space for the line */
-    border-left: 2px solid #4CAF50; /* Timeline line */
+    padding-left: 20px;
+    /* Adjust space for the line */
+    border-left: 2px solid #4CAF50;
+    /* Timeline line */
 }
 
 .timeline-event {
@@ -154,7 +170,8 @@ h2 {
 
 .event-date {
     font-weight: bold;
-    color: #4CAF50; /* Match timeline line color */
+    color: #4CAF50;
+    /* Match timeline line color */
 }
 
 .event-description {
@@ -165,8 +182,13 @@ h2 {
 
 /* Example of a simple fade-in animation */
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .container {
@@ -174,7 +196,9 @@ h2 {
 }
 
 @keyframes blink {
-    50% { border-color: transparent; }
+    50% {
+        border-color: transparent;
+    }
 }
 
 .typing-effect {
@@ -189,18 +213,23 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px; /* Adjust gap between image and text as needed */
+    gap: 20px;
+    /* Adjust gap between image and text as needed */
 }
 
 .profile-image {
-    flex: 0 0 auto; /* Adjust size as needed */
-    width: 150px; /* Adjust size as needed */
-    height: 150px; /* Adjust size as needed */
+    flex: 0 0 auto;
+    /* Adjust size as needed */
+    width: 150px;
+    /* Adjust size as needed */
+    height: 150px;
+    /* Adjust size as needed */
     border-radius: 50%;
     object-fit: cover;
 }
 
 .about-text {
     flex: 1;
-    max-width: 600px; /* Adjust as needed */
+    max-width: 600px;
+    /* Adjust as needed */
 }
