@@ -1,14 +1,15 @@
+<!-- index.html -->
 <header>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y7QNGKQWTZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-Y7QNGKQWTZ');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y7QNGKQWTZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-Y7QNGKQWTZ');
+    </script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js"></script>
     <div class="toggle-container">
         <label class="switch">
@@ -19,14 +20,14 @@
           </span>
         </label>
       </div>
-      
+    
     <div class="container header-container">
         <h1><span class="typing-effect">Aashish Kanted</span></h1>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#updates">Updates</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -40,7 +41,7 @@
             <h2>About Me</h2>
             <p>Welcome! I'm Aashish Kanted, an undergrad at BITS Pilani, Goa campus, pursuing my bachelor's majoring in Electrical and Electronics Engineering and Physics. 
                 My fascination with robotics steered me towards working on the university's Mars rover project, blending my interests in electronics and physics. My passion for tinkering drives my involvement in various projects, and I thoroughly enjoy spending time at the university's maker space. My technical skills are complemented by leadership roles and a passion for Ultimate Frisbee. 
-                This site highlights my favourite projects and experiences.
+                This website highlights my favourite projects and experiences.
             </p>
         </div>
     </div>
@@ -55,9 +56,9 @@
                 <img src="assets/kratos1.JPG" alt="Project Kratos" class="project-image">
                 <div class="project-details">
                     <h3>Project Kratos - Mars Rover</h3>
-                    <p>Robotic Arm Subsystem lead (2022 - present). Developed a 5 DoF robotic arm with custom PID controller and inverse kinematics.</p>
-                    <a href="https://github.com/Kratos-The-Rover" class="project-link">View Code</a>
-                    <a href="https://youtu.be/-5alpsdGXH8?si=B1DDv0LMCFGnHUI_" class="project-link">Watch Video</a>
+                    <p>Robotic Arm Subsystem lead. Developed a 5 DoF robotic arm with custom PID controller and inverse kinematics. Arm could lift 8kgs and insert a usb stick while being light enough for the rover.</p>
+                    <a href="https://github.com/Kratos-The-Rover" class="project-link" target="_blank">Code</a>
+                    <a href="https://youtu.be/-5alpsdGXH8?si=B1DDv0LMCFGnHUI_" class="project-link" target="_blank">Video</a>
                 </div>
             </div>
             <!-- Repeat for each project -->
@@ -66,7 +67,24 @@
                 <div class="project-details">
                     <h3>R.A.I.N - Autonomous Indoor Navigation Robot</h3>
                     <p>Worked on global and local PID controllers for holonomic drive (2021 - 2023).</p>
-                    <a href="https://github.com/ERC-BPGC/RAIN" class="project-link">View Code</a>
+                    <a href="https://github.com/ERC-BPGC/RAIN" class="project-link" target="_blank">Code</a>
+                </div>
+            </div>
+            <div class="project-entry">
+                <img src="assets/fuzzy_animation.gif" alt="Fuzzy Logic" class="project-image">
+                <div class="project-details">
+                    <h3>Fuzzy Logic Implementation to Control Thrust Vector of a Self-Landing Rocket</h3>
+                    <p>Developed a fuzzy logic controller to control the thrust vector for stable landing of a prototype rocket (2024).</p>
+                    <a href="https://github.com/AashishKanted/Fuzzfication" class="project-link" target="_blank">Code</a>
+                    <a href="https://docs.google.com/document/d/1ygWkYz8e-yeEb4Df1HVqFvExaOEIY6_xfL-tauSgcI8/edit?tab=t.0" class="project-link" target="_blank">PDF</a>
+                </div>
+            </div>
+            <div class="project-entry">
+                <img src="assets/autonomous_buggy.jpg" alt="Autonomous Buggy" class="project-image">
+                <div class="project-details">
+                    <h3>Autonomous Buggy</h3>
+                    <p>Designed and developed an autonomous buggy capable of navigating outdoor environments using GPS and computer vision (2024).</p>
+                    <a href="https://github.com/AashishKanted/GNSS-Localization" class="project-link" target="_blank">Code</a>
                 </div>
             </div>
             <div class="project-entry">
@@ -74,7 +92,8 @@
                 <div class="project-details">
                     <h3>Forecasting - Warehouse Management System</h3>
                     <p>Developed a system to manage stock quantities and reorder dates using Prophet in Python (05/2023 - 07/2023).</p>
-                    <a href="link-to-project" class="project-link">View Project</a>
+                    <a href="https://github.com/AashishKanted/Sales_Forecasting" class="project-link" target="_blank">Code</a>
+                    <a href="https://docs.google.com/document/d/1jR-Ks55kvt6-3RIJqk0sLCL311b7HOWpavsHLspHIwQ/edit?tab=t.0" class="project-link" target="_blank">Doc</a>
                 </div>
             </div>
         </div>
@@ -88,10 +107,10 @@
             <div class="experience-logo-title">
                 <img src="assets/crystal ball.png" alt="Company Logo" class="company-logo">
                 <div class="company-title">
-                    <h3 class="company-name">Crystal ball</h3>
+                    <h3 class="company-name">Crystal Ball</h3>
                 </div>
             </div>
-            <div class="experience-details">
+            <div class="experience-details" style="margin-left: 20px;">
                 <div class="position-details">
                     <p class="position-title">Embedded Systems Designer</p>
                     <p class="position-dates">May 2024 - Jul 2024</p>
@@ -156,11 +175,11 @@
     </div>
 </section>
 
-<section id="updates">
+<!-- <section id="updates">
     <div class="container">
         <h2>Updates</h2>
         <div class="timeline">
-            <!-- Example Timeline Event -->
+            
             <div class="timeline-event">
                 <div class="event-date">Feb '23</div>
                 <div class="event-description">Description of the significant event...</div>
@@ -169,17 +188,16 @@
                 <div class="event-date">Feb '23</div>
                 <div class="event-description">Description of the significant event...</div>
             </div>
-            <!-- Repeat for each event -->
         </div>
     </div>
-</section>
+</section> -->
 
 <section id="contact">
     <div class="container">
         <h2>Contact</h2>
-        <p>Email: <a href="mailto:aakanted@gmail.com" class="contact-link">aakanted@gmail.com</a></p>
+        <p>Email: <a href="mailto:aakanted@gmail.com" class="contact-link" target="_blank">aakanted@gmail.com</a></p>
         <!-- Add links to your professional profiles -->
-        <a href="https://www.linkedin.com/in/aashish-kanted-7a3707225/" class="contact-link">LinkedIn</a>
-        <a href="https://github.com/AashishKanted" class="contact-link">Github</a>
+        <a href="https://www.linkedin.com/in/aashish-kanted-7a3707225/" class="contact-link" target="_blank">LinkedIn</a>
+        <a href="https://github.com/AashishKanted" class="contact-link" target="_blank">Github</a>
     </div>
 </section>
