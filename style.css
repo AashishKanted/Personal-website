@@ -265,8 +265,10 @@ nav ul li a:hover {
 
 .experience-logo-title {
     display: flex;
-    align-items: flex-start;
-    margin-right: 20px;
+    align-items: center; /* Center align logo and title vertically */
+    justify-content: flex-start;
+    width: 200px; /* Fixed width for the logo-title container */
+    flex-shrink: 0; /* Prevent shrinking */
 }
 
 .company-logo {
@@ -279,16 +281,26 @@ nav ul li a:hover {
 
 .company-title {
     display: flex;
-    align-items: center;
+    align-items: center; /* Center align the company name vertically */
+    flex-wrap: wrap;
+    width: 150px; /* Ensure a fixed width for the title */
 }
 
 .company-name {
     font-weight: bold;
     margin-bottom: 5px;
+    font-size: 1.2em;
+    line-height: 1.2;
+    white-space: normal; /* Allow wrapping of long names */
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .experience-details {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
     flex-grow: 1;
+    padding-left: 10px; /* Adds space between company name and experience details */
 }
 
 .position-details {
